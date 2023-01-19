@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv);
 
     // 서버로 OpenAI API 요청하기
-    const response = await fetch('http://localhost:5000', {
+    const response = await fetch('https://chatgpt-study.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
